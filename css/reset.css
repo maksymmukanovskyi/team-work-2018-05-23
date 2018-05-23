@@ -10,3 +10,12 @@ a{
 ul{
     list-style-type: none;
 }
+.sub-title{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(51,51,51);
+    text-align: center;
+}
+.container{
+    width: 1110px;
+}
