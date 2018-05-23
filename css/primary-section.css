@@ -1,0 +1,122 @@
+.prime-one {
+    background-color: #fff;
+    font-size: 0;
+}
+.primary-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 136px;
+}
+.prime-text {
+    display: flex;
+    flex-direction: column;
+    /*width: 567px;*/
+    /*height: 475px;*/
+    justify-content: space-between;
+    flex-basis: 567px;
+}
+.sub-t-left {
+    text-align: left;
+}
+.prime-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgba(142, 142, 142, 255);
+    text-align: left;
+}
+.prime-btn {
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 900;
+    color: rgba(51, 51, 51, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*----------PRIMARY TWO----------*/
+
+.prime-two {
+    background-color: #f8f8f8;
+    font-size: 0;
+}
+.sec-cont {
+    padding-bottom: 100px;
+}
+.sub-t-before {
+    margin-bottom: 101px;
+}
+.sub-t-before:before {
+    content: '';
+    width: 2px;
+    height: 50px;
+    display: block;
+    background-color: #333;
+    margin: 0 auto 30px;
+}
+.sec-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    min-height: 785px;
+}
+.box {
+    position: relative;
+}
+.sec-shadow {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+.shadow-item {
+    height: 78%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.white-text {
+    height: 22%;
+    background-color: #fff;
+    padding-left: 31px;
+    padding-top: 12px;
+}
+.shadow-title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 18pt;
+    color: rgba(51, 51, 51, 255);
+    text-align: left;
+    text-transform: uppercase;
+    /*background-color: #fff;*/
+    display: block;
+    margin-bottom: 8px;
+    /*height: 10%;*/
+}
+.shadow-txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgba(142, 142, 142, 255);
+    text-align: left;
+    text-transform: capitalize;
+    /*background-color: #fff;*/
+    display: inline;
+    /*height: 10%;*/
+}
+.circle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../img/cross.png");
+    /*border: 2px solid #fff;*/
+    border-radius: 50%;
+}
+.box:hover .sec-shadow {
+    display: block;
+}
