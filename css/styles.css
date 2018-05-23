@@ -1,0 +1,13 @@
+@import 'reset.css';
+@import 'header-section.css';
+@import 'primary-section.css';
+@import 'secondary-section.css';
+@import 'footer-section.css';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+
+/***********this is our fonts use families below to to activate them********************/
+
+/*font-family: 'Roboto', sans-serif;*/
+
+/*font-family: 'Lato', sans-serif;*/
