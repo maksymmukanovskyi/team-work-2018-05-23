@@ -1,0 +1,124 @@
+.header {
+    display: flex;
+     justify-content:space-around;
+}
+.nav  {
+    display: flex;
+    flex-basis: 500px;
+
+}
+.item-nav{
+    font-size: 20px;
+    flex-grow: 5;
+ }
+.header-title{
+    display: block;
+    content:'';
+    width: 2px;
+    height: 35px;
+    background-color: #000000;
+    margin:auto;
+}
+.header:last-child{
+    padding: 50px 0px;
+}
+.link-nav{
+    text-transform: uppercase;
+    color: #a0a0a0;
+}
+.link-nav:hover{
+    color: black;
+}
+.wrap-main{
+    height: 700px;
+    background-image: url(../img/main-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.main-title{
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    padding-top: 80px;
+
+}
+.main-text{
+    width: 700px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.main-btn{
+    color: #000000;
+    text-transform: uppercase;
+    padding: 20px 40px;
+}
+.sim::after{
+    content: '\2192';
+    font-size: 18px;
+    word-spacing: 5px;
+}
+.title-nipro{
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.text-nipro{
+    color: #a0a0a0;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.card-nipro{
+    display: flex;
+    height: 100vh;
+    justify-content:space-between;
+
+}
+.card{
+    flex-basis: 255px;
+     height: 300px;
+    border: 1px solid #a0a0a0;
+
+}
+.title-card{
+    font-size: 20px;
+    padding-top: 20px;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.title-card:after{
+    display: block;
+    content:'';
+    width: 50px;
+    height: 3px;
+    margin:auto;
+    background-color: #a0a0a0;
+    margin-top: 10px;
+}
+.text-card{
+    font-size: 18px;
+    color: #a0a0a0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card-link{
+    text-align: center;
+    display: block;
+    color: #a0a0a0;
+    font-size: 18px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.card:hover{
+    border-color: #000000;
+}
+.card:hover .card-link {
+    color: #000000;
+ }
