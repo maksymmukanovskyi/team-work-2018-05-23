@@ -5,26 +5,29 @@
 .primary-cont {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 136px;
+    padding-bottom: 136px;
 }
 .prime-text {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
     /*width: 567px;*/
     /*height: 475px;*/
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     flex-basis: 567px;
 }
 .sub-t-left {
     text-align: left;
+    margin-bottom: 48px;
 }
 .prime-p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: rgba(142, 142, 142, 255);
     text-align: left;
+    margin-bottom: 48px;
 }
 .prime-btn {
+    display: block;
     font-family: 'Roboto', sans-serif;
     width: 200px;
     height: 50px;
@@ -103,7 +106,7 @@
     text-align: left;
     text-transform: capitalize;
     /*background-color: #fff;*/
-    display: inline;
+    display: block;
     /*height: 10%;*/
 }
 .circle {
