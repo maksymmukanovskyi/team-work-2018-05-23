@@ -10,13 +10,25 @@ a{
 ul{
     list-style-type: none;
 }
-.sub-title{
+.sub-title-stick{
     font-size: 30px;
     font-family: 'Lato', sans-serif;
-    color: rgb(51,51,51);
+    color: #333333;
     text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 100px;
 }
-.container{
+.sub-title-stick:before{
+    display: block;
+    content: '';
+    width: 3px;
+    height: 50px;
+    background: #464646;
+    margin:auto;
+    margin-bottom: 25px;
+}
+.container {
     width: 1110px;
     margin: auto;
 }

@@ -1,0 +1,130 @@
+
+/***********SECONDARY SECTION***********/
+.wrapper-secondary{
+    padding-bottom:90px;
+}
+.choose-body{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 312px;
+    justify-content: space-between;
+    /*background-color: #cfcfcf;*/
+    align-content:space-between;
+
+}
+.choose-item{
+    flex-basis: 30%;
+    /*background-color: #b4ff9f;*/
+    border-bottom: 2px solid #b5b5b5;
+    padding-bottom: 36px;
+}
+.choose-item:hover{
+    border-bottom: 2px solid #000000;
+}
+.choose-item:hover > .item-title{
+    color: #000;
+}
+
+.item-title{
+    font-size: 18px;
+    color:#8e8e8e;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.choose-article{
+    color: #8e8e8e;
+    font-size: 16px;
+    line-height:1.4;
+}
+
+/**********SECONDARY-SECOND SECTION*********/
+.wrapper-secondary-second{
+    padding-bottom: 100px;
+    background-image:linear-gradient(to top, rgba(255,0,0,0), rgb(255, 255, 255)),url(../img/bcg.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.work-body{
+    display: flex;
+    justify-content:space-between;
+
+}
+.pic{
+    display: block;
+    font-size: 0;
+}
+.sub-element{
+    padding: 15px 15px;
+}
+.work-item{
+    flex-basis:23%;
+    background-color: #fff;
+    position: relative;
+    /*transition: 1s;*/
+
+
+}
+.caption-title{
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.caption-art{
+    font-size: 16px;
+    color: #8e8e8e;
+}
+.overlay{
+    display: none;
+    position: absolute;
+    /*background-color: red;*/
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+
+
+
+}
+.icon-parent{
+    position: absolute;
+    left: 0;
+    top:15%;
+
+}
+.icons{
+    display: block;
+    background-color: rgba(255,255,255,0.4);
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+}
+.f{
+    background-image: url(../img/i-1.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.t{
+    background-image: url(../img/i-2.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.b{
+    background-image: url(../img/i-3.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.i{
+    background-image: url(../img/i-4.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.work-item:hover > .overlay{
+    display: block;
+}
