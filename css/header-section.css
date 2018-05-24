@@ -113,7 +113,7 @@
     text-align: center;
     margin-bottom: 10px;
 }
-.title-card:after{
+.title-card:after{   
     display: block;
     content:'';
     width: 50px;
