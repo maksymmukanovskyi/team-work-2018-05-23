@@ -16,6 +16,7 @@ ul{
     color: #333333;
     text-align: center;
     text-transform: uppercase;
+
     margin-bottom: 100px;
 }
 .sub-title-stick:before{
@@ -27,8 +28,7 @@ ul{
     margin:auto;
     margin-bottom: 25px;
 }
-.container{
+.container {
     width: 1110px;
-    margin:auto;
-
+    margin: auto;
 }
