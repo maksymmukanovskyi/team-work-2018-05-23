@@ -3,7 +3,7 @@
     padding-top: 22px;
 }
 
-.sub-title{
+.sub-title-footer{
     margin-bottom: 108px;
     text-transform: uppercase;
 }
@@ -69,6 +69,9 @@
     min-height: 458px;
     background-image: url(../img/Background@1X.png);
     padding-top:38px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .text{
     width: 340px;
