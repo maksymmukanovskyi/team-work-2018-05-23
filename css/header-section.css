@@ -1,30 +1,36 @@
 .header {
     display: flex;
-     justify-content:space-around;
+     justify-content:space-between;
+    padding-bottom: 30px;
 }
 .nav  {
     display: flex;
     flex-basis: 500px;
-
+    align-items: center;
+    padding-top: 30px;
 }
 .item-nav{
-    font-size: 20px;
     flex-grow: 5;
  }
 .header-title{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(51, 51, 51, 255);
+    font-family: 'Lato', sans-serif;
+
+}
+.header-title:before{
     display: block;
     content:'';
     width: 2px;
     height: 35px;
     background-color: #000000;
-    margin:auto;
-}
-.header:last-child{
-    padding: 50px 0px;
+    margin: auto;
 }
 .link-nav{
     text-transform: uppercase;
     color: #a0a0a0;
+    font-size: 16px;
 }
 .link-nav:hover{
     color: black;
@@ -41,7 +47,8 @@
     font-size: 60px;
     color: #ffffff;
     margin-bottom: 30px;
-    padding-top: 80px;
+    padding-top: 150px;
+    font-family: 'Lato', sans-serif;
 
 }
 .main-text{
@@ -54,18 +61,33 @@
     color: #000000;
     text-transform: uppercase;
     padding: 20px 40px;
+    border: none;
+    background-color: #ffffff;
+    font-family: "Roboto mediun",sans-serif;
 }
 .sim::after{
     content: '\2192';
     font-size: 18px;
     word-spacing: 5px;
 }
+.wrap-card{
+    margin-bottom: 30px;
+}
 .title-nipro{
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 30px;
     text-align: center;
     margin-bottom: 40px;
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+.title-nipro:before{
+    display: block;
+    content:'';
+    width: 2px;
+    height: 40px;
+    background-color: #000000;
+    margin:0px auto 20px;
 }
 .text-nipro{
     color: #a0a0a0;
@@ -74,8 +96,7 @@
 }
 .card-nipro{
     display: flex;
-    height: 100vh;
-    justify-content:space-between;
+     justify-content:space-between;
 
 }
 .card{
@@ -87,7 +108,7 @@
 .title-card{
     font-size: 20px;
     padding-top: 20px;
-    color: #a0a0a0;
+    color: #000000;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 10px;
@@ -112,7 +133,7 @@
     display: block;
     color: #a0a0a0;
     font-size: 18px;
-    padding-bottom: 30px;
+    padding-top: 50px;
     text-transform: uppercase;
 }
 
